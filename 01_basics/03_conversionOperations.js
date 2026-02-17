@@ -26,3 +26,33 @@ let someNum = 33
 let stringNum = String(someNum);
 console.log(stringNum);
 console.log(typeof(stringNum));
+
+// ************ Operations ************
+
+
+let value = 3;
+let negv = -value;
+console.log(negv); // -3
+
+
+
+let str1 = "Hello!!";
+let str2 = " Devansh Singh";
+
+let str3 = str1 + str2;
+console.log(str3);  // Hello!! Devansh
+
+
+console.log("1" + 2); // 12
+console.log(1 + "2"); // 12
+console.log("1" + 2 + 2); // 122
+console.log(1 + 2 + "3"); // 33
+
+
+console.log(+true);
+console.log(+"");
+
+let gameCounter = 100;
+gameCounter++;
+console.log(gameCounter);
+
