@@ -28,7 +28,7 @@ let ans = multi(2, 3) // 6
 console.log("ANSWER IS :", ans);
 
 // Console.log() in a function is a bad practice.
-//We should always return a value from funtion.
+//We should always return a value from function.
 
 
 function addNumbers(...numbers) { // Spread Operator.
